@@ -1,0 +1,394 @@
+/*reset*/
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*peso dos titulos*/
+h1, h2, h3{
+    font-weight: 400;
+}
+/*cabeçalho principal fixado (redes sociais e menu)*/
+.cabecalho-principal{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*barra de navegação fixada*/
+nav{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 44px;  
+}
+/*configura as redes sociais*/
+.redes{
+    background-color: #2b2b2b; /*fundo */
+    display: flex; /*torna o container em flex box (caixa flexivel)*/
+    justify-content: flex-end;   /*alinha os elementos no final da lina*/
+    
+}
+.redes ul{
+    margin: 10px; /*margem do elemento*/
+    padding-right: 60px; /*distancia do padding do lado esquerdo para a direita*/
+}
+.redes ul li{
+    display: inline-block; /*torna o formato de container em bloco*/
+    padding-left: 20px;
+}
+/*estilo a */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.7;
+}
+/*estilo logo*/
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+/*estilo nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+    height: 8vh;
+    box-shadow: 0 0 5px; /*bordade do menu*/
+}
+/*estilo nav-list*/
+.nav-list{
+    list-style: none;
+    display: flex;   
+}
+/*estilo li*/
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+/*menu celular*/
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #000000;
+    margin: 8px;
+    transition: 0.3s;
+}
+/*banner*/
+.banner img{
+    width: 100%;
+    height: 607px;
+    /*height: auto;
+    display: block;*/
+}
+/*estilo página sobre*/
+.sobre{
+    height: 550px;
+    margin-top: 0px;
+    background-color: #2b2b2b;
+}
+.sobre h2{
+    text-align: center;
+    padding-top: 60px;
+}
+.logo-sobre{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-sobre img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/*estilo texto p*/
+.logo-sobre p{
+    width: 45%;
+    padding: 70px;
+    padding-top: 140px;
+    text-align: center;
+    font-weight: 150;
+}
+/*final página sobre*/
+.sobre h2,p{
+    color: #ffffff;
+}
+/*estilização serviços*/
+.container-servicos {
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-servicos img{
+    width: 300px;
+    height: 150px;
+    border-radius: 6px; 
+}
+/*titulo h1*/
+.container-servicos h2{
+    text-transform: uppercase;
+}
+.container-servicos .fotos{
+    padding-left: 15px;
+    margin: 25px;
+    padding-top: 30px;
+}
+/*titulo h1 p alinha ao centro*/
+.container-servicos h2{
+    margin-bottom: 25px;
+    text-align: center;
+    width: 300px;
+}
+.container-servicos p{
+    margin-bottom: 25px;
+    text-align: center;
+    width: 300px;
+}
+/*paragráfo*/
+.container-servicos p{
+    margin-top: 25px;
+}
+/*fim estilo serviços*/
+
+/*estilo seção de contatos*/
+.contatos{
+    width: auto;
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
+    height: 400px;
+    padding-top: 160px;
+}
+/*centraliza o titulo da seção contatos*/
+.titulo-contatos{
+    text-align: center;
+}
+/*estilo conteúdo contatos*/
+.conteudo-contatos{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; /*alinha o texto no centro*/
+}
+.email img{
+    padding-bottom: 10px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.email a {
+    padding-bottom: 10px;
+    color: #fff;
+}
+.phone img{
+    padding-bottom: 10px;
+}
+.phone a{
+    color: #fff;
+    
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.insta img{
+    padding-bottom: 10px;
+}
+.insta a{
+    color: #fff;
+}
+/*Estilização maps*/
+.titulo-maps h2{ /*estilo titulo*/
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+.maps{
+    display:flex;
+    justify-content: center;   
+}
+.maps{
+    margin-top: 65px; /*margin do maps*/
+    margin-bottom: 75px; /*bottom do maps*/
+}
+.maps iframe{
+    width: 512px;
+    height: 350px;
+}/*final estilo maps*/
+
+/*rodapé*/
+.rodape{
+    border-bottom: 0px;
+    background-color:  #2b2b2b;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    height: 40px;
+}
+.direitos{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}/*final rodapé*/
+.whats-icone{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    margin-top: 547px;
+    right: 40px;
+}
+/*Responsividade*/
+@media screen and (max-width: 768px){
+
+    body { 
+        overflow-x: hidden; 
+    }
+/*etilo redes sociais menu display: none;*/
+    .redes{
+        display: none;
+    }
+    /*nav psition fixed*/
+    nav{
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        height: 92vh;
+        background: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(-100%);
+        transition: 0.2s ease-in;
+    }
+    /*opacidade nav-list*/
+    .nav-list{
+    opacity: 0;
+    }
+    /*estilo nav-list*/
+    .nav-list li{
+        margin-left: 0;
+    }
+    .nav-list li a{
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    /*transição rolagem essquerda*/
+    .nav-list.active{
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .mobile-menu.active .line1{
+        transform: rotate(-45deg) translate(-8px, 8px);    
+    }
+    .mobile-menu.active .line2{
+        opacity: 0;
+    }
+    .mobile-menu.active .line3{
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+/*estilo página sobre*/
+.sobre{
+    width: 100%;
+    margin-top: 0px;
+    background-color: #2b2b2b;
+    display: block;
+    height: auto;
+}
+.logo-sobre{
+    display: grid;
+}
+.logo-sobre p{
+    width: auto;
+    padding: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.logo-sobre img{
+    width: 200px;
+    height: 200px;
+    margin-left: 97px;
+}
+
+    .maps iframe{
+        width: 340px;
+        height: 350px;
+    }
+    .maps{
+        display:flex;
+        justify-content: center;
+        padding-left: 0; 
+    }
+    .whats-icone{
+        display: none;
+    }
+    .whats-icone1{
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+    }
+    /*correção nos itens do serviços levemente desalinhados*/
+    .container-servicos .fotos{
+        padding-left: 0px;
+    }
+    /*mobile baner*/
+    .banner img{
+        width: 100%;
+        height: 35vh;
+        display: block;
+    }
+    .contatos{
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+    }
+    .contatos{
+    
+        padding-top: 0px;
+    }
+}
+
+

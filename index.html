@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS INFORMÁTICA</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/computador.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="cabecalho-principal">
+        <div class="redes"> <!-- div das redes sociais-->
+            <ul>
+                <li><a href="https://www.facebook.com/Rbs.Viana" target="_blank"><img src="img/facebook.png" alt="Facebook" heigth="20px" width="20px"></a></li>
+                <li><a href="https://www.instagram.com/rsinformaticamanutencao/" target="_blank"><img src="img/instagram.png" alt="Instagram" heigth="20px" width="20px"></a></li>
+                <li><a href="https://wa.me/5511986750214" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp" heigth="20px" width="20px"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header>
+        <nav> 
+            <div class="mobile-menu" onclick="OcultarZap()">
+                <div class="line1" ></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <a class="logo" href="index.html">Rs Informática</a>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#banner" onclick="OcultarZap()">Início</a></li>
+                <li><a href="#Servicos" onclick="OcultarZap()">Serviços</a></li>
+                <li><a href="#Sobre" onclick="OcultarZap()">Sobre</a></li>              
+                <li><a href="#Contatos" onclick="OcultarZap()">Contato</a></li>
+                <li><a href="#Rotas" onclick="OcultarZap()">Localização</a></li>
+            </ul>
+        </nav>
+        <div class="whats-icone">
+            <a href="https://wa.me/5511986750214"  target="_blank" rel="external"><img src="img/whatsapp0.png" alt="whatsapp"></a>
+        </div>
+        <div class="whats-icone1" id="zap-mobile">
+            <a href="https://wa.me/5511986750214"  target="_blank" rel="external"><img src="img/whatsapp0.png" alt="whatsapp"></a>
+        </div>
+    </header>
+    <main id="banner" class="banner">
+        <img src="img/bannerrs.jpg"></img>
+    </main>
+    <section id="Servicos"> <!-- conteúdo da página-->
+        <div class="container-servicos">
+            <div class="fotos">
+                <h2 class="desktop">Desktop</h2>
+                   <a href="desktop.html"><img src="img/download.jpg" alt="Desktop"></a> 
+            </div>
+            <div class="fotos">
+                <h2>Laptops</h2>
+                    <img src="img/homem-reparando-placa-de-circuito-no-laptop.jpg" alt="Notebooks">
+            </div>
+            <div class="fotos">
+                <h2>Smartphones</h2>
+                    <img src="img/Reparo-de-smatphnones.jpg" alt="Smartphones">
+            </div>
+            <div class="fotos">
+                <h2>Criação de Web Site</h2>
+                    <img src="img/e-commerce-1606962.png" alt="Criação de Web Site">            
+            </div>
+            <div class="fotos">
+                <h2>Banners</h2>
+                    <img src="img/banner.webp" alt="Banners">               
+            </div>
+            <div class="fotos">
+                <h2>Cartão de Visita</h2>
+                    <img src="img/business-card-943996.jpg" alt="Cartão de Visita">
+            </div>
+        </div>
+    </section>
+    <section id="Sobre" class="sobre">
+        <h2>Quem Somos Nós</h2> 
+        <div class="logo-sobre">
+                <img src="img/rs-informátia-logo.jpg" alt="RS INFORMÁTICA">
+            <p> 
+                A RS INFORMÁTICA é uma empresa que atua na area de concerto de microcomputadores, leptops e smartphones,
+                também atuamos na area de criação de web sites (front-end) e criação de banners e cartões de visita.<br>
+                Visamos entregar o melhor para nosso cliente, para que o mesmo se sinta confortável e grato por nosso serviços.
+                Nossa maior ambição é ver o maior numero de máquinas em pleno funcionamento para que seu proprietários possam desfrutar
+                do melhor que elas tem para oferecer.
+            </p>
+        </div>  
+    </section>
+    
+    <section id="Contatos" class="contatos">
+        <div class="titulo-contatos">
+            <h2>Contatos</h2>
+        </div>
+        <!-- div conteúdo contatos-->
+        <div class="conteudo-contatos"> 
+            <div class="email"><img src="./img/mail.png" alt="e-mail" width="25px" height="25px"><a href="mailto:rsinformaticamanutencao@gmail.com" target="_blank">rsinformaticamanutencao@gmail.com</a></div>
+            <div class="phone"><img src="./img/phone.png" alt="phone" width="25px" height="25px" ><a href="tel:5511986750214">(11) 98675-0214</a></div>
+            <div class="insta"><img src="./img/insta.png" alt="instagram" width="25px" height="25px">
+                <a href="https://www.instagram.com/rsinformaticamanutencao/">rsinformaticamanutencao</a></div>
+            
+        </div>
+    </section>
+    <section id="Rotas" class="localizacao">
+        <div class="titulo-maps"><h2>Localização</h2></div>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.5639880075605!2d-46.421532385545405!3d-23.47618696433628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63b59c780a59%3A0x289cf6f449f15876!2sR.%20dos%20Murur%C3%A9s%2C%20431%20-%20Jardim%20Helena%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008090-580!5e0!3m2!1sen!2sbr!4v1683930303687!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+    <footer class="rodape">
+        <div class="direitos">
+
+        <p>₢ Copyright 2023 | Todos os Direitos Reservados.<br>
+        Criado por Web &amp; Design's</p>
+
+        </div>
+
+      
+         
+        
+    </footer>
+    
+
+    <script src="./js/mobile-navbar.js"></script>
+</body>
+</html>
